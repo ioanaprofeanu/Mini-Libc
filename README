@@ -1,0 +1,20 @@
+# MINI LIBC - SO TEMA 1
+## Profeanu Ioana, 333CA
+-------------------------------------------------------------------------------
+Implemented some of the most important functions within LIBC.
+The following resources were used:
+
+1. For every function, I used the manual for the description and asked
+CHATGPT for more details for a better understanding.
+2. For the string functions, I used CHATGPT to see an implementation for
+strcpy; using a similar implementation (with changes), I used a similar
+code structure for the other string functions as well.
+3. memmove : https://aticleworld.com/memmove-function-implementation-in-c/,
+https://www.javatpoint.com/memmove-in-c, CHATGPT.
+4. open : used CHATGPT to generate an example code of how to use the syscall
+function. Using the result, after further modifications, I used the system call
+and error handling "template" for the other functions which required system
+calls (the io, memory and stat, put and time functions).
+5. fstatat_statx: used CHATGPT in order to understand the statx structure and
+to convert it to stat structure.
+-------------------------------------------------------------------------------
